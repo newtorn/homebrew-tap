@@ -1,1 +1,1 @@
-# homebrew-newtool
+# homebrew-tap
