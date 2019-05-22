@@ -5,7 +5,7 @@ class Newgo < Formula
   sha256 "2ace4fd5fa7eb4175f2111711fa1aa1dfb6649abc04e7a85d6ae132b0c66f18c"
 
   def install
-      system 'mv newgo newgo'
+      system 'mv src/newgo newgo'
       bin.install "newgo"
   end
 
