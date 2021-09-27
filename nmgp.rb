@@ -8,7 +8,7 @@ class Nmgp < Formula
   def install
       system 'chmod +x src/nmgp'
       system 'mv src/nmgp nmgp'
-      bin.install "newgo"
+      bin.install "nmgp"
   end
 
   test do
