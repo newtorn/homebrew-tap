@@ -7,9 +7,12 @@ class Nmgp < Formula
   license "MIT"
 
   def install
-      system 'chmod +x src/nmgp'
-      system 'mv src/nmgp nmgp'
-      bin.install "nmgp"
+    system 'chmod +x src/nmgp'
+    system 'mv src/nmgp nmgp'
+    bin.install "nmgp"
   end
 
   test do
+    system "false"
+  end
+end
